@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+.container{
+    width: 1000px;
+    margin: auto;
+}
+header{
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+header nav i{
+    color: #fff;
+    margin: 5px;
+}
+section h1{
+    font: 300 3.25em  'Open Sans', sans-serif;
+letter-spacing: 2px;
+color: #ffffff;
+text-align: center;
+margin-top: 271px;
+padding-bottom: 27px;
+}
+section form input{
+    width: 326px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font: 400 1em 'Open Sans', sans-serif;
+letter-spacing: 1px;
+color: #8b8b8b;
+padding-left: 14px;
+}
+section form{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  padding-bottom: 206px;
+}
+section button{
+    width: 120px;
+    height: 40px;
+    background-color: #fd4f32;
+    font: 700 1em 'Open Sans', sans-serif;    
+letter-spacing: 1px;
+color: #ffffff;
+text-align: center;
+border: none;
+cursor: pointer;
+}
+#iki{
+    background-color: #eeeeee;
+    height: 525px;
+}
+.yazilar{
+    display: flex;
+}
+article{
+    width: 240px;
+    margin-right: 13px;
+    background-color: #fff;    
+}
+.price{
+    position: relative;
+}
+.price span{
+    color: #fff;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.dest h3{
+    font: bold 400 0.875em 'Montserrat', sans-serif;
+letter-spacing: 0px;
+color: #323232;
+padding-left: 20px;
+padding-top: 17px;
+padding-bottom: 20px;
+}
+.dest p{
+    width: 204px;
+height: 75px;
+font-size: 13px;
+line-height: 19px;
+color: #696969;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+padding-left: 20px;
+}
+.dest{
+    border: bottom 1;
+    cursor: pointer;
+}
+#basliq{
+    font: bold;
+    font-size: 16px;
+letter-spacing: 0px;
+color: #323232;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+padding-top: 60px;
+padding-bottom: 15px;
+}
+#paragraf{
+    font: 400 .9375em 'Open Sans', sans-serif;
+letter-spacing: 0px;
+color: #8b8b8b;
+padding-bottom: 36px;
+}
+
+#before{
+    font-size: 52px;
+    letter-spacing: 2px;
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 80px;
+    padding-bottom: 57px;
+}
+#yazilar2{
+    display: flex;
+    justify-content: space-between;
+}
+#visa{
+    font: bold 1em 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+    padding-bottom: 20px;
+}
+#visa2{
+    font: 400 .9375em 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    width: 284px;
+}
+#formalt{
+    display: flex;
+    padding-bottom: 80px;
+}
+#formalt input{
+    background-color: #eeeeee;
+    font-size: 16px;
+letter-spacing: 1px;
+color: #8b8b8b;
+}
+#format{
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+    padding-bottom: 30px;
+    font: bold 1em 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+}
+#asaqi{
+    background-color: #eeeeee;
+    height: 75px;
+}
+#asaqi ul{
+    float: right;
+    display: flex;
+    padding-top: 33px;
+}
+#copyright{
+    font: 400 0.875em 'Open Sans', sans-serif;
+letter-spacing: 0px;
+line-height: 22px;
+color: #8b8b8b;
+padding-top: 33px;
+width: 500px;
+float: left;
+}
+#asaqi ul li{
+    margin-left: 17px;
+}
+#asaqi li a{
+    font: bold 0.875em 'Montserrat', sans-serif;
+letter-spacing: 0px;
+color: #323232;
+}
+
